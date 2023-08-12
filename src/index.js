@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import "./index.css";
-import App from "./App";
+import React from "react";
+import  ReactDOM  from "react-dom";
+import fastName , {middleName,lastName} from "./App";
 
 ReactDOM.render(
-  <>
-  <div>
-   <App/>
-  </div>
-  </>,
-  document.getElementById("root")
+<>
+<h1>hello</h1>
+<h1>{fastName}</h1>
+<h1>{middleName}</h1>
+<h1>{lastName()}</h1>
+</>,
+document.getElementById("root")
 );
