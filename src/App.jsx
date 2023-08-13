@@ -1,12 +1,8 @@
-const fastName = "sangram" ;
-
-const middleName =" k ";
-
-function lastName() {
-  let name = "Bal" ;
-  return name;
+function App(){
+  return(
+    <>
+    
+    </>
+  )
 }
-
-export default fastName;
-
-export {middleName , lastName};
+export default App;

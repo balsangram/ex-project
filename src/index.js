@@ -1,13 +1,11 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-import fastName , {middleName,lastName} from "./App";
+// import Valu from "./calculator/value";
+import Home from "./netflix/home"
 
 ReactDOM.render(
 <>
-<h1>hello</h1>
-<h1>{fastName}</h1>
-<h1>{middleName}</h1>
-<h1>{lastName()}</h1>
+<Home/>
 </>,
 document.getElementById("root")
 );
