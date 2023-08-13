@@ -1,8 +1,7 @@
 import React from "react";
-import "../index.css"
+import "../index.css";
 
 function Card (props){
-    console.log (props);
 return (
     <>
     <div className="">
